@@ -1,0 +1,220 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[colorlinks = true,
+            linkcolor = red,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\hypersetup{pdfborder = 0 0 0}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+\begin{document}
+
+\begin{center}
+    {\Huge \scshape Michael Blanchette} \\ \vspace{1pt}
+    \small
+    \raisebox{-0.1\height}\faPhone\ +852 9421 5885 ~
+    \href{mailto:mdblanchette@connect.ust.hk}{\faEnvelope\ mdblanchette@connect.ust.hk} ~ 
+    \href{https://www.linkedin.com/in/michaelblanchette/}{\faLinkedin\ -michaelblanchette}  ~
+    \href{https://github.com/mdblanchette}{\faGithub\ mdblanchette}
+    \vspace{-8pt}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {The Hong Kong University of Science and Technology}{Sep 2020 -- Jun 2025}
+      {Dual Degree Program in Technology \& Management (DDP)}{}
+      %leave a line after this
+      
+      \small{\textbf{BEng Computer Science and BBA Marketing}}
+  \resumeSubHeadingListEnd
+\vspace{-18pt}
+
+%----------WORK EXPERIENCE-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Deloitte}{Jun 2023 -- Aug 2023}
+      {Consulting Intern - Digital}{Hong Kong}
+      \resumeItemListStart
+        \resumeItem {Optimized ServiceNow workflows to develop management and strategic portfolio dashboards for four prominent companies. The solutions were specifically tailored to be used by HR personnel, employees, and customers.}
+        \resumeItem {Supervised the quality of Chinese-English translations for ServiceNow portals by translating an average of 200 cells of notifications per day, ensuring high-quality cross-cultural organizational communications.}
+        \resumeItem {Compiled meeting minutes involving at least four parties, summarizing and translating key action points and business agreements between five stakeholders engaged in our client’s project.}
+%Based on the number of point you want to add add the "\resumeItem" for each point you want to add.
+    \resumeItemListEnd
+      
+    \resumeSubheading
+      {Scout Association of Hong Kong (SAHK)}{Sep 2022 -- Present}
+      {Instructor}{Hong Kong}
+      \resumeItemListStart
+        \resumeItem {Attained the Venture Scout Award (VSA) and Chief Scout Award across at least 10 years of scouting.}
+        \resumeItem {Leading and coordinating diverse scouting activities for groups of 20 to 40 youths every week.}
+        \resumeItem {Mentored and guided over three generations of scout troops, optimizing and facilitating effective leadership councils.}
+        \resumeItem{Cultivated our youths’ interest in their scouting journey and maintained an 80\% retention rate of scouts per generation.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {McDonald's Hong Kong}{Jul 2022 - Jun 2023}
+      {Youth Consultant}{Hong Kong}
+      \resumeItemListStart
+        \resumeItem {Established the first committee in McDonald's HK operated entirely by passionate Hong Kong youth.}
+        \resumeItem {Partnered with local Hong Kong artists to organize the "Coach McNugget Art World" Exhibition, showcasing over 20 meticulously curated nugget-themed artworks.}
+        \resumeItem {Supported the CEO and other board members as a key decision-maker and consultant for McDonald's HK youth-related business decisions.}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+% adjust vscape based on the space you want to leave between each section.
+
+%----------PROJECT EXPERIENCE-----------
+\section{Project Experience}
+  \resumeSubHeadingListStart
+      \resumeSubheading
+      {HKUST TEMG4950L Corporate Consulting Project}{Sep 2023 -- Present}
+      {ETF Trading Student Consultant}{Hong Kong}
+      \resumeItemListStart
+        \resumeItem {Designing a Global ETF Sales Dashboard to aggregate trends from news and social media, progressing JP Morgan’s competitive edge in the ETF trading landscape.}
+%Based on the number of point you want to add add the "\resumeItem" for each point you want to add.
+    \resumeItemListEnd
+    \resumeSubheading
+      {HKUST TEMG4940C Corporate Prototyping Project}{Jun 2023 -- Aug 2023}
+      {Fixed Income Student Analyst / Full-stack Developer}{Hong Kong}
+      \resumeItemListStart
+        \resumeItem {Applied machine learning algorithms to data sourced from Eikon Terminal and Yahoo Finance, leading a team to develop a predictive dashboard for corporate sponsors. The dashboard operates on Next.js and Google Cloud Platform to accurately predict changes in bond pricing, achieving 2nd place in the competition.}
+        \resumeItem {Identified and utilized 62 features used to predict yearly credit rating migrations with 79.71\% back-tested accuracy.}
+        \resumeItem {Developed a yearly credit spread prediction model with an average error of 76.14 basis points.}
+%Based on the number of point you want to add add the "\resumeItem" for each point you want to add.
+    \resumeItemListEnd
+      
+    \resumeSubheading
+      {Project Melo}{Jan 2022 -- Present}
+      {Fellow}{Hong Kong}
+      \resumeItemListStart
+        \resumeItem {Engaged with prominent Hong Kong CEOs and business leaders to participate in social empowerment initiatives.}
+        \resumeItem {Selected as one of 20 fellows from a competitive pool of 200+ applicants and collaborated in a team of 4 with the CEOs of McDonald's HK and Bowtie.}
+        \resumeItem {Delivered a TED-style talk at HKUST to an audience of over 500 CEOs from around the world to advocate our initiatives.}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------Expertise-----------
+\section{Expertise}
+ \begin{itemize}[leftmargin=0.1in, label={}]
+    \small{\item{
+     \textbf{Communication}{: English (Native), Thai (Conversational), Mandarin (Studying), Cantonese (Studying), Spanish (Studying)} \\
+     \textbf{Programming}{: Python, Java, C, C\#, C++, HTML, CSS, JavaScript, R, PHP} \\
+     \textbf{Technologies}{: React, Next.js, Git, Google Cloud, Agile Development}\\
+     \textbf{Tools}{: Adobe Premiere, After Effects, Photoshop, Dreamweaver, iMovie, Autodesk 3DS Max, Autodesk Maya, Blender, SketchUp, AutoCAD, Canva, Figma}\\
+     
+    }}
+ \end{itemize}
+ \vspace{-20pt}
+
+
+
+
+
+
+\end{document}

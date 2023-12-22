@@ -1,0 +1,77 @@
+{
+  "experienceWork": [
+    {
+      "position": "Consulting Intern - Digital",
+      "company": "Deloitte",
+      "companyLink": "https://www.deloittedigital.com/us/en.html",
+      "time": "Jun 2023 - Aug 2023",
+      "address": "Hong Kong, China",
+      "work": [
+        "Optimized ServiceNow workflows to develop management and strategic portfolio dashboards for four prominent companies. The solutions were specifically tailored to be used by HR personnel, employees, and customers.",
+        "Supervised the quality of Chinese-English translations for ServiceNow portals by translating an average of 200 cells of notifications per day, ensuring high-quality cross-cultural organizational communications.",
+        "Compiled meeting minutes involving at least four parties, summarizing and translating key action points and business agreements between five stakeholders engaged in our client’s project."
+      ]
+    },
+    {
+      "position": "Instructor",
+      "company": "Scout Association of Hong Kong (SAHK)",
+      "companyLink": "https://www.scout.org.hk/en/",
+      "time": "Sep 2022 - Present",
+      "address": "Hong Kong, China",
+      "work": [
+        "Attained the Venture Scout Award (VSA) and Chief Scout Award across at least 10 years of scouting.",
+        "Leading and coordinating diverse scouting activities for groups of 20 to 40 youths every week.",
+        "Mentored and guided over three generations of scout troops, optimizing and facilitating effective leadership councils.",
+        "Cultivated our youths’ interest in their scouting journey and maintained an 80% retention rate of scouts per generation."
+      ]
+    },
+    {
+      "position": "Youth Consultant",
+      "company": "McDonald's Hong Kong",
+      "companyLink": "https://www.scmp.com/events/news/hong-kong/topics/melo-summit-2022/article/3187735/project-melo-hong-kong-youth",
+      "time": "Sep 2022 - Present",
+      "address": "Hong Kong, China",
+      "work": [
+        "Established the first committee in McDonald's HK operated entirely by passionate Hong Kong youth.",
+        "Partnered with local Hong Kong artists to organize the \"Coach McNugget Art World\" Exhibition, showcasing over 20 meticulously curated nugget-themed artworks for McDonald's HK's 40 years of McNuggets.",
+        "Supported the CEO Randy Lai and other board members as a key decision-maker and consultant for McDonald's HK youth-related business decisions."
+      ]
+    }
+  ],
+  "experienceProject": [
+    {
+      "position": "ETF Trading Student Consultant",
+      "project": "HKUST Corporate Consulting Project Sponsored by JPMorgan Chase & Co",
+      "projectLink": "https://techmgmt.hkust.edu.hk/system/files/internal/2310_TEMG4950L_Syllabus_2023.08.15_Tentative.pdf",
+      "time": "Sep 2023 - Present",
+      "address": "Hong Kong, China",
+      "work": [
+        "Designed a Global ETF Sales Dashboard to aggregate trends from news and social media, progressing JP Morgan’s competitive edge in the ETF trading landscape. Achieved 1st place in the competition."
+      ]
+    },
+    {
+      "position": "Fixed Income Student Analyst / Full-stack Developer",
+      "project": "HKUST Corporate Prototyping Project",
+      "projectLink": "https://techmgmt.hkust.edu.hk/system/files/internal/2240_TEMG4940C_Syllabus_2023.07.28.pdf",
+      "time": "Jun 2023 - Aug 2023",
+      "address": "Hong Kong, China",
+      "work": [
+        "Applied machine learning algorithms to data sourced from Eikon Terminal and Yahoo Finance, leading a team to develop a predictive dashboard for corporate sponsors. The dashboard operates on Next.js and Google Cloud Platform to accurately predict changes in bond pricing, achieving 2nd place in the competition.",
+        "Identified and utilized 62 features used to predict yearly credit rating migrations with 79.71% back-tested accuracy.",
+        "Developed a yearly credit spread prediction model with an average error of 76.14 basis points."
+      ]
+    },
+    {
+      "position": "Fellow",
+      "project": "Project Melo",
+      "projectLink": "https://www.projectmelo.com/",
+      "time": "Jan 2022 - Present",
+      "address": "Hong Kong, China",
+      "work": [
+        "Engaged with prominent Hong Kong CEOs and business leaders to participate in social empowerment initiatives.",
+        "Selected as one of 20 fellows from a competitive pool of 200+ applicants and collaborated in a team of 4 with the CEOs of McDonald's HK and Bowtie.",
+        "Delivered a TED-style talk at HKUST to an audience of over 500 CEOs from around the world to advocate our initiatives."
+      ]
+    }
+  ]
+}
