@@ -31,7 +31,6 @@ export default function Experience() {
       capitalize hover:border-dark hover:text-dark 
       md:p-2 md:px-4 md:text-base
       bg-gradient-to-r from-blue-700 to-cyan-300 text-white`}
-                download
               >
                 Resume <LinkArrow className="ml-1 !w-6 md:!w-4" />
               </Link>

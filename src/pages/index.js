@@ -24,7 +24,7 @@ export default function Home() {
             <div className="relative my-10 w-1/4 lg:mr-10 lg:inline-block lg:w-full md:inline-block md:w-full p-8 border-2 border-solid border-dark rounded-2xl bg-light dark:border-light dark:bg-dark">
               <div
                 className="absolute top-0 -right-3 -z-10 h-[103%] w-[102%] rounded-[2rem]  bg-dark
-        dark:bg-light"
+        dark:bg-light shadow-2xl"
               />
               <Image
                 src={profilePic}
