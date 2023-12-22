@@ -21,7 +21,7 @@ export default function Home() {
       >
         <Layout className="!pt-0 md:!pt-16 sm:!pt-16">
           <div className="flex w-full items-start justify-around md:flex-col">
-            <div className="relative w-1/4 lg:hidden md:inline-block md:w-full p-8 border-2 border-solid border-dark rounded-2xl bg-light dark:border-light dark:bg-dark">
+            <div className="relative my-10 w-1/4 lg:mr-10 lg:inline-block lg:w-full md:inline-block md:w-full p-8 border-2 border-solid border-dark rounded-2xl bg-light dark:border-light dark:bg-dark">
               <div
                 className="absolute top-0 -right-3 -z-10 h-[103%] w-[102%] rounded-[2rem]  bg-dark
         dark:bg-light"
@@ -29,7 +29,7 @@ export default function Home() {
               <Image
                 src={profilePic}
                 alt="Michael Blanchette"
-                className="h-auto w-full rounded-2xl "
+                className="h-auto w-full rounded-2xl"
                 priority
               />
             </div>
@@ -71,7 +71,6 @@ export default function Home() {
       capitalize hover:border-dark hover:text-dark 
       md:p-2 md:px-4 md:text-base
       bg-gradient-to-r from-blue-700 to-cyan-300 text-white`}
-                  download
                 >
                   Resume <LinkArrow className="ml-1 !w-6 md:!w-4" />
                 </Link>
