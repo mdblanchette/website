@@ -46,7 +46,7 @@
             "time": "Sep 2023 - Jan 2024",
             "address": "Hong Kong, China",
             "work": [
-                "Designed a Global ETF Sales Dashboard to aggregate trends from news and social media, progressing JP Morgan’s competitive edge in the ETF trading landscape. Achieved 1st place in the competition.",
+                "Designed a Global ETF Sales Dashboard to aggregate trends from news and social media, progressing JP Morgan Asset Management's competitive edge in the ETF trading landscape. Achieved 1st place in the competition.",
                 "Developed an ETF filtering tool taking advantage of Meta’s Llama 2 LLM and financial news from marketaux API to accelerate ETF identification for JPM salespeople through semantic search, reducing the time needed to pinpoint promising ETFs for their clients by 70%.",
                 "Presented a proof of concept of a customer profiling tool by combining CRM data from Salesforce, financial news, client meeting logs, and Hugging Face APIs to dynamically generate 2 to 5 ETF recommendations per month."
             ]
