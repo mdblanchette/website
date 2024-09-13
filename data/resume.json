@@ -1,15 +1,26 @@
 {
     "experienceWork": [
         {
+            "position": "Machine Learning Developer Intern",
+            "company": "Pivot Biomedical Engineering Limited",
+            "companyLink": "https://pivotbme.com/",
+            "time": "Jul 2024 - Aug 2024",
+            "address": "Hong Kong, China",
+            "work": [
+                "Developed RNN and DCNN-based machine learning models using Tensorflow to predict knee joint angles using muscle signals for real-time control of lower limb exoskeletons and prosthetics.",
+                "Prototyped an AI-powered medical diagnosis chatbot integrating MongoDB, Llama 3.1, and Retrieval-Augmented Generation to streamline medical consultations and provide symptom-based diagnoses through semantic search."
+            ]
+        },
+        {
             "position": "Consulting Intern - Digital",
             "company": "Deloitte",
             "companyLink": "https://www.deloittedigital.com/us/en.html",
             "time": "Jun 2023 - Aug 2023",
             "address": "Hong Kong, China",
             "work": [
-                "Optimized ServiceNow workflows to develop management and strategic portfolio dashboards for four prominent companies. The solutions were specifically tailored to be used by HR personnel, employees, and customers.",
-                "Supervised the quality of Chinese-English translations for ServiceNow portals by translating an average of 200 cells of notifications per day, ensuring high-quality cross-cultural organizational communications.",
-                "Compiled meeting minutes involving at least four parties, summarizing and translating key action points and business agreements between five stakeholders engaged in our client’s project."
+                "Optimized ServiceNow workflows to develop strategic portfolios and management dashboards for HR personnel, employees, and customers of 4 large corporations.",
+                "Supervised the quality of Chinese-English translations for ServiceNow dashboards by translating an average of 200 Excel cells of notifications per day, ensuring high-quality cross-cultural organizational communications.",
+                "Produced concise, real-time meeting minutes distilling key action points and agreements between 2 to 5 stakeholders."
             ]
         },
         {
@@ -19,10 +30,9 @@
             "time": "Sep 2022 - Present",
             "address": "Hong Kong, China",
             "work": [
-                "Attained the Venture Scout Award (VSA) and Chief Scout Award across at least 10 years of scouting.",
-                "Leading and coordinating diverse scouting activities for groups of 20 to 40 youths every week.",
-                "Mentored and guided over three generations of scout troops, optimizing and facilitating effective leadership councils.",
-                "Cultivated our youths’ interest in their scouting journey and maintained an 80% retention rate of scouts per generation."
+                "Led and coordinated weekly scouting activities for 20 to 40 youths, including workshops, hikes, and camps.",
+                "Awarded the Venture Scout Award and Chief Scout Award after over 10 years of scouting.",
+                "Mentored 10+ youth patrol leaders to develop their leadership skills and foster personal growth."
             ]
         },
         {
@@ -32,13 +42,35 @@
             "time": "Sep 2022 - Present",
             "address": "Hong Kong, China",
             "work": [
-                "Established the first committee in McDonald's HK operated entirely by passionate Hong Kong youth.",
-                "Partnered with local Hong Kong artists to organize the \"Coach McNugget Art World\" Exhibition, showcasing over 20 meticulously curated nugget-themed artworks for McDonald's HK's 40 years of McNuggets.",
-                "Supported the CEO Randy Lai and other board members as a key decision-maker and consultant for McDonald's HK youth-related business decisions."
+                "Co-founded McDonald’s HK’s first youth-led committee, collaborating with Bowtie CEO Fred Ngan and Miss Hong Kong 2015 Winner Louisa Mak.",
+                "Curated the ”Coach McNugget Art World” Exhibition for McDonald’s HK’s 40th anniversary of McNuggets, showcasing 20+ nugget-themed artworks by local artists.",
+                "Advised McDonald’s CEO Randy Lai and 3 to 5 board members on youth-related business strategies."
             ]
         }
     ],
     "experienceProject": [
+        {
+            "position": "Developer",
+            "project": "MultiModal AI Assistant: A GPT-4o Alternative",
+            "projectLink": null,
+            "time": "Jun 2024 - Present",
+            "address": "Hong Kong, China",
+            "work": [
+                "Engineering a custom AI assistant leveraging Llama 3.1 for communication, Gemini Flash 1.5 for screen and camera computer vision, and Azure to generate lifelike audio outputs to simulate natural conversations. This project was motivated by the fact that OpenAI isn’t available in Hong Kong.",
+                "Facilitating my language learning in Thai, Mandarin, Cantonese, and Spanish by developing a polyglot system capable of communication in 100+ languages with 400+ realistic voice options."
+            ]
+        },
+        {
+            "position": "Developer",
+            "project": "AI Algorithmic Trading Bot",
+            "projectLink": null,
+            "time": "Jun 2024 - Present",
+            "address": "Hong Kong, China",
+            "work": [
+                "Leveraged Alpaca and Lumibot library for basic algorithmic trading through YouTube tutorials and documentation.",
+                "Backtested strategies using sentiment analysis of historical news headlines using PyTorch and Hugging Face models."
+            ]
+        },
         {
             "position": "ETF Trading Student Consultant",
             "project": "HKUST Corporate Consulting Project Sponsored by JPMorgan Chase & Co",
@@ -46,9 +78,9 @@
             "time": "Sep 2023 - Jan 2024",
             "address": "Hong Kong, China",
             "work": [
-                "Designed a Global ETF Sales Dashboard to aggregate trends from news and social media, progressing JP Morgan Asset Management's competitive edge in the ETF trading landscape. Achieved 1st place in the competition.",
-                "Developed an ETF filtering tool taking advantage of Meta’s Llama 2 LLM and financial news from marketaux API to accelerate ETF identification for JPM salespeople through semantic search, reducing the time needed to pinpoint promising ETFs for their clients by 70%.",
-                "Presented a proof of concept of a customer profiling tool by combining CRM data from Salesforce, financial news, client meeting logs, and Hugging Face APIs to dynamically generate 2 to 5 ETF recommendations per month."
+                "Designed a Global ETF Sales Dashboard to aggregate trends from news and social media for JP Morgan Asset Management’s ETF sales team. Achieved 1st place in the competition.",
+                "Developed an ETF filtering tool leveraging Llama 2 and MongoDB to accelerate ETF identification for JPM salespeople through RAG semantic search, reducing the time needed to pinpoint promising ETFs for their clients by 70%.",
+                "Presented a proof of concept of a customer profiling tool by integrating CRM data from Salesforce, financial news, client meeting logs, and Hugging Face models to dynamically generate 2 to 5 ETF recommendations per month."
             ]
         },
         {
@@ -58,9 +90,8 @@
             "time": "Jun 2023 - Aug 2023",
             "address": "Hong Kong, China",
             "work": [
-                "Applied machine learning algorithms to data sourced from Eikon Terminal and Yahoo Finance, leading a team to develop a predictive dashboard for corporate sponsors. The dashboard operates on Next.js and Google Cloud Platform to accurately predict changes in bond pricing, achieving 2nd place in the competition.",
-                "Identified and utilized 62 features used to predict yearly credit rating migrations with 79.71% back-tested accuracy.",
-                "Developed a yearly credit spread prediction model with an average error of 76.14 basis points."
+                "Created a yearly bond pricing and credit spread migration prediction dashboard for 2 corporate banking and fixed-income related sponsors. Led mainly front-end development and achieved 2nd place in the competition.",
+                "Built dashboard on Next.js and Google Cloud. Sourced data from Eikon Terminal and Yahoo Finance for machine learning models and identified 62 features used to predict yearly credit rating migrations with 79.71% back-tested accuracy."
             ]
         },
         {
@@ -70,9 +101,20 @@
             "time": "Jan 2022 - Present",
             "address": "Hong Kong, China",
             "work": [
-                "Engaged with prominent Hong Kong CEOs and business leaders to participate in social empowerment initiatives.",
-                "Selected as one of 20 fellows from a competitive pool of 200+ applicants and collaborated in a team of 4 with the CEOs of McDonald's HK and Bowtie.",
-                "Delivered a TED-style talk at HKUST to an audience of over 500 CEOs from around the world to advocate our initiatives."
+                "Engaged with 45+ prominent Hong Kong CEOs and business leaders in social empowerment initiatives.",
+                "Selected as one of 20 fellows from a competitive pool of 200+ applicants and collaborated in a team of 4 with the CEOs of McDonald’s HK and Bowtie.",
+                "Delivered a TED-style talk to an audience of over 500 CEOs from around the world to advocate our initiatives."
+            ]
+        },
+        {
+            "position": "Private Tutor / Software Developer",
+            "project": "Questionbank Scraper",
+            "projectLink": null,
+            "time": "Jan 2022 - Present",
+            "address": "Hong Kong, China",
+            "work": [
+                "Created a Python web scraping tool in 1 week using Selenium to automate question selection from the IB Questionbank to be used as teaching material for weekly tutoring for HL Math, HL Chemistry, and HL Physics.",
+                "Increased productivity and improved tutoring experience by decreasing question search time from 1-2 hours per week to just 5 minutes."
             ]
         }
     ]
