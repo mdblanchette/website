@@ -63,7 +63,7 @@ export default function Home() {
                                 </a>
                                 . This hub is where I showcase my projects,
                                 experiences, and anything else I think is fun :)
-                                Take a look around ! ✌️
+                                Feel free to take a look around ! ✌️
                             </p>
                             <div className="mt-2 flex items-center self-start lg:self-center">
                                 <Link
